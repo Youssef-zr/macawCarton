@@ -1,5 +1,12 @@
 $(() => {
-
+    // load icon ---------------------
+    setTimeout(() => {
+        $('body').css({
+            overflow: 'visible'
+        })
+        $('.load-icon').fadeOut(700)
+    }, 1500);
+    // slide up ---------------------
     let slideUpBTn = $('.slide-up');
 
     $(window).scroll(() => {
