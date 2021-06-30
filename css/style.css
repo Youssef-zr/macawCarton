@@ -377,11 +377,11 @@ p {
     font-size: 14px;
   }
   .head {
-    padding-left: 0;
-    text-align: center;
+    padding-left: 57px;
   }
   .head::after {
     width: 40px !important;
+    top:17px
   }
   .head h3 {
     font-size: 30px !important;
