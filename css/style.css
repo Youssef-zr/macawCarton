@@ -30,6 +30,9 @@ nav {
     margin-top: 15px;
     border: 1px solid #fff;
   }
+  .head h3{
+    margin-bottom: 10px !important;
+  }
 }
 
 .navbar-brand img {
@@ -319,6 +322,22 @@ p {
 }
 #section-header .header-content .header {
   font-size: 3em !important;
+}
+
+
+@media (min-width: 1200px) {
+
+  .presale-stage{
+    color:#fff !important;
+    position:absolute;
+    top:35px
+  }
+  .presale-stage::after{
+    background: #fff !important;
+  }
+  .presale-stage h3{
+    color:inherit !important
+  }
 }
 @media (max-width: 1200px) {
   #section-header .header-content .header {
