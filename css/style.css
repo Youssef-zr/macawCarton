@@ -33,6 +33,12 @@ nav {
   .head h3 {
     margin-bottom: 10px !important;
   }
+  .small-xs-img{
+    width: 242px;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-121px, -121px);
+  }
 }
 
 .navbar-brand img {
