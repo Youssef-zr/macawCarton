@@ -66,9 +66,15 @@ $(() => {
         let $nav = $('.navbar');
 
         if ($('html,body').scrollTop() >= 30) {
-            $nav.addClass('bg-blue')
+            $('.bg-blue').slideDown(300)
+            $nav.css({
+                position: "fixed"
+            })
         } else {
-            $nav.removeClass('bg-blue');
+            $nav.css({
+                position: "relative"
+            })
+            $('.bg-blue').slideUp(100)
         }
 
         // add class active to nav items
