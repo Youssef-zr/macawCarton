@@ -377,14 +377,14 @@ p {
   .slide-up{
     display: none !important;
   }
+  #section-header .header-content .social-media {
+    display: block !important;
+  }
 }
 @media (max-width: 1200px) {
   #section-header .header-content .header {
     font-size: 30px !important;
     margin-top: 30px;
-  }
-  #section-header .header-content .social-media {
-    display: block !important;
   }
   p {
     font-size: 14px;
