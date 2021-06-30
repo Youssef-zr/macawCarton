@@ -348,6 +348,7 @@ p {
 @media (max-width: 968px) {
   .bg-blue {
     background: url("/images/bg-nav.jpg") no-repeat top left;
+    background-size: cover;
   }
 }
 
