@@ -373,6 +373,11 @@ p {
     color: inherit !important;
   }
 }
+@media (max-width: 768px) {
+  .slide-up{
+    display: none !important;
+  }
+}
 @media (max-width: 1200px) {
   #section-header .header-content .header {
     font-size: 30px !important;
