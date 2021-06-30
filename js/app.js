@@ -16,7 +16,7 @@ particlesJS('section-header',
   {
     "particles": {
       "number": {
-        "value": 20,
+        "value": 14,
         "density": {
           "enable": false,
           "value_area": 600,
@@ -52,7 +52,7 @@ particlesJS('section-header',
         }
       },
       "size": {
-        "value":50,
+        "value":45,
         "random": true,
         "anim": {
           "enable": true,
