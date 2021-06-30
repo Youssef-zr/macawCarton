@@ -39,6 +39,9 @@ nav {
     left: 50% !important;
     transform: translate(-121px, -121px);
   }
+  .image-svg .svg{
+    top:-18px !important
+  }
 }
 
 .navbar-brand img {
