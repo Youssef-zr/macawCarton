@@ -27,15 +27,15 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <!-- load icon -->
+    <!-- load icon
     <div class="load-icon">
       <img src="/images/parrot.gif" alt="load icon" class="img-responsive"/>
-    </div>
+    </div> -->
 
     <!-- header section -->
-    <div id="header-section">
+    <div id="section-header" class="section-home">
       <!-- navigation bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -56,37 +56,28 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <a
+                    class="nav-link active"
+                    href="#"
+                    data-scroll="section-home"
+                  >
                     Home
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">section1</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">section2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">section3</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    section4
+                  <a class="nav-link" href="#" data-scroll="section-why">
+                    Why Macaw
                   </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-scroll="section-statistics">
+                    Get Macaw
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-scroll="section-how">
+                    RoadMap
+                  </a>
                 </li>
               </ul>
             </div>
@@ -97,23 +88,22 @@
       <div class="header-content text-capitalize text-white">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 left-section">
+            <div class="col-5 mx-auto order-lg-1 col-lg-6 right-section">
+              <div class="images">
+                <img src="/images/1.png" alt="image" class="img-responsive" />
+              </div>
+            </div>
+            <div class="col-lg-6 left-section order-lg-0">
               <h1 class="header">
-                Little meme.
-                <br />
-                Big dream.
+                FIND, CONSOLIDATE & SWAP “SHIT COINS” LEFTOVERS IN YOUR WALLET
               </h1>
-              <p class="text-white mt-4">
-                Kishu Inu ($KISHU) is a community-focused, decentralized
-                <br />
-                cryptocurrency with instant rewards thanks to active
-                <br />
-                users! Join the moon mission.
+              <p class="text-white mt-3">
+                GET ALERTED FROM POTENTIALS DUST ATTACKS
               </p>
-              <div class="buttons mt-5">
+              <div class="buttons mt-4">
                 <div class="row">
                   <div class="col-sm-6 col-md-4">
-                    <a href="" class="btn btn-danger d-block">Macaw</a>
+                    <a href="" class="btn btn-danger d-block mb-3">Macaw</a>
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <a href="" class="btn btn-info d-block">Macaw</a>
@@ -121,7 +111,7 @@
                 </div>
               </div>
 
-              <div class="social-media mt-4 bg-white d-inline-block py-2 px-4">
+              <div class="social-media mt-3 bg-white d-inline-block py-2 px-4">
                 <ul class="list-unstyled d-flex mb-0">
                   <li>
                     <a href="">
@@ -145,11 +135,6 @@
                     <a href=""><i class="fa fa-github-square fa-2x"></i></a>
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div class="col-md-6 right-section">
-              <div class="images">
-                <img src="/images/1.png" alt="image" class="img-responsive" />
               </div>
             </div>
           </div>
@@ -188,16 +173,15 @@
             </div>
             <div class="col-md-7 mt-md-5">
               <h2 class="text-orange mt-md-5">
-                Instant Usage
-                <br />
-                Rewards
+                DUST$WAP
               </h2>
               <div class="text">
                 <p>
-                  For every active user transaction a 2% KISHU reward is granted
-                  to holders' decentralized wallets only, fostering a healthy
-                  distributed network and community usage. The more KISHU is
-                  actively used, the more rewards are granted!
+                  Dust$wap will be the first ever platform to find, consolidate
+                  and swap your “crypto dust” or crypto residuals that are being
+                  left behind on every transaction you make. Our platform will
+                  serve as a bridge to other platforms to effectible swap your
+                  tokens for any other coin of your choice.
                 </p>
               </div>
             </div>
@@ -206,22 +190,7 @@
         <!-- why box -->
         <div class="why-box mt-4">
           <div class="row">
-            <div class="col-md-7 mt-md-5">
-              <h2 class="text-green mt-md-5">
-                Instant Usage
-                <br />
-                Rewards
-              </h2>
-              <div class="text">
-                <p>
-                  For every active user transaction a 2% KISHU reward is granted
-                  to holders' decentralized wallets only, fostering a healthy
-                  distributed network and community usage. The more KISHU is
-                  actively used, the more rewards are granted!
-                </p>
-              </div>
-            </div>
-            <div class="col-md-5">
+            <div class="col-md-5 order-lg-1">
               <div class="image-svg">
                 <div class="svg">
                   <img src="images/blob.svg" alt="svg" />
@@ -235,6 +204,57 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-7 mt-md-5 order-lg-0">
+              <h2 class="text-green mt-md-5">
+                DUST$AFE
+              </h2>
+              <div class="text">
+                <p>
+                  DUST$AFE will scan your wallet for “DUST ATTACKS” which have
+                  become very popular in the crypto space, helping you secure
+                  your assets by blocking them or alerting you if there is any
+                  step you should take to secure your wallet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- why box -->
+        <div class="why-box mt-4">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="image-svg">
+                <div class="svg">
+                  <img src="images/blob.svg" alt="svg" />
+                </div>
+                <div class="__img">
+                  <img
+                    src="/images/why-4.png"
+                    alt="image"
+                    class="img-responsive"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 mt-md-5">
+              <h2 class="text-orange mt-md-5">
+                CHARITY FOR EVERYONE
+              </h2>
+              <h6 class="text-dark" style="text-decoration: underline;">
+                2% OF ALL TRANSACTIONS WILL BE DONATED TO CHARITY
+              </h6>
+              <div class="text">
+                <p class="mb-2">
+                  Each quarter the charity fund will be divided equally to a
+                  charity in each country where there is DU$T holders.
+                </p>
+                <p>
+                  Charity of each country will be nominated and voted by holders
+                  of that country and will also have a chance to become
+                  ambassadors of DU$T in that country to present donations.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- why box -->
@@ -245,7 +265,7 @@
                 <div class="svg">
                   <img src="images/blob.svg" alt="svg" />
                 </div>
-                <div class="__img">
+                <div class="__img small-xs">
                   <img
                     src="/images/why-3.png"
                     alt="image"
@@ -256,10 +276,11 @@
             </div>
             <div class="col-md-7 mt-md-6 offset-md-1">
               <h2 class="text-blue mt-md-5">
-                Instant Usage
-                <br />
-                Rewards
+                REWARDS
               </h2>
+              <h6 class="text-dark" style="text-decoration: underline;">
+                2% OF ALL TRANSACTIONS WILL BE DISTRIBUTED AMONG HOLDERS
+              </h6>
               <div class="text">
                 <p>
                   For every active user transaction a 2% KISHU reward is granted
@@ -276,9 +297,10 @@
 
     <!-- section how to get -->
     <div class="section-how py-5">
-      <div class="container mt-5">
-        <div class="head">
-          <h3 class="text-white mb-5">How To Get Macaw</h3>
+      <div class="container mt-md-5">
+        <div class="head mb-5">
+          <h3 class="text-white">Road Map</h3>
+          <h6 class="text-white" style="text-decoration: underline;">Our Plan</h6>
         </div>
         <div class="row">
           <div class="col-md-4 mx-auto">
@@ -302,23 +324,23 @@
               <div class="c_breadcrumb">
                 <ul class="nav nav-pills nav-tabs nav-fill" role="tablist">
                   <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#step4">
+                      Q1 22
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#step1">
-                      step 1
+                      Q2 21
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#step2">
-                      step 2
+                      Q3 21
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#step3">
-                      step 3
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#step4">
-                      step 4
+                      Q4 21
                     </a>
                   </li>
                 </ul>
@@ -326,42 +348,136 @@
 
               <div class="tab-content text-white" style="margin: 5%;">
                 <div class="tab-pane active" id="step1">
-                  <img
-                    src="/images/steps/1.png"
-                    alt="step"
-                    class="img-responsive"
-                    style="width: 60px;"
-                  />
-                  Submitted data will be displayed here....
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="/images/steps/2.png"
+                      alt="step"
+                      class="img-responsive mr-3"
+                      style="width: 60px; height: 60px;"
+                    />
+                    <ul class="list-unstyled d-inline-block">
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          WEBSITE LAUNCH
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          SOCIAL LAUNCH
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          TEAM EXPANSION
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          CONTRACT CREATION
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          MARKETING CAMPAIGN LAUNCH
+                        </h4>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="tab-pane" id="step2">
-                  <img
-                    src="/images/steps/2.png"
-                    alt="step"
-                    class="img-responsive"
-                    style="width: 60px;"
-                  />
-
-                  Pending Approvals will be displayed here....
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="/images/steps/3.png"
+                      alt="step"
+                      class="img-responsive mr-3"
+                      style="width: 60px; height: 60px;"
+                    />
+                    <ul class="list-unstyled d-inline-block">
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          PRESALE STAGE 1
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          PRESALE STAGE 2
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          PANCAKESWAP LAUNCH
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          WEBSITE UPDATE
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          TEAM EXPASION
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          PARTNERSHIPS EXPLORATION
+                        </h4>
+                      </li>
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          DU$TSCAN BETA LAUNCH
+                        </h4>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="tab-pane" id="step3">
-                  <img
-                    src="/images/steps/3.png"
-                    alt="step"
-                    class="img-responsive"
-                    style="width: 60px;"
-                  />
-
-                  In Progress data will be displayed here....
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="/images/steps/4.png"
+                      alt="step"
+                      class="img-responsive mr-3"
+                      style="width: 60px; height: 60px;"
+                    />
+                    <ul class="list-unstyled d-inline-block">
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          DUST$CAN BETA LAUNCH
+                        </h4>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="tab-pane" id="step4">
-                  <img
-                    src="/images/steps/4.png"
-                    alt="step"
-                    class="img-responsive"
-                    style="width: 60px;"
-                  />
-                  Completed data will be displayed here....
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="/images/steps/1.png"
+                      alt="step"
+                      class="img-responsive mr-3"
+                      style="width: 60px; height: 60px;"
+                    />
+                    <ul class="list-unstyled d-inline-block">
+                      <li class="d-flex">
+                        <i class="fa fa-check-square fa-2x mt-2 mr-3"></i>
+                        <h4>
+                          DUST$WAP BETA LAUNCH
+                        </h4>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -370,9 +486,10 @@
       </div>
     </div>
 
+    <div class="clear-fix"></div>
     <!-- section stats -->
     <div
-      class="section-stats pt-3 pb-5 border-top"
+      class="section-statistics pt-3 pb-5 border-top"
       style="
         background: url('/images/stats-bg.jpg') no-repeat top right;
         background-size: cover;
@@ -387,80 +504,80 @@
       </svg>
       <div class="container py-5">
         <div class="head">
-          <h3 class="text-white mb-5">
-            Tokenomics & Stats
+          <h3 class="text-danger mb-5">
+            PRESALE STAGE
           </h3>
         </div>
         <div class="parent pt-5">
-          <div class="row">
-            <div class="col-md-4 mt-md-5">
-              <div class="image-svg">
-                <div class="svg">
-                  <img src="images/blob.svg" alt="svg" />
-                </div>
-                <div class="__img">
-                  <img
-                    src="/images/stats.png"
-                    alt="image"
-                    class="img-responsive"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-7 offset-md-1 text-center pt-5 mt-5">
               <div class="row">
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">$Macaw</h5>
-                  </div>
-                  <div class="stats-number">
-                    <p class="text">Token Symbol</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">2% Usage REward</h5>
-                  </div>
-                  <div class="stats-number">
-                    <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+                <div class="col-md-4 mt-md-5 mx-auto m">
+                  <div class="image-svg">
+                    <div class="svg">
+                      <img src="images/blob.svg" alt="svg" />
+                    </div>
+                    <div class="__img">
+                      <img
+                        src="/images/stats.png"
+                        alt="image"
+                        class="img-responsive"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-              <hr class="" />
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">$ 173,000+</h5>
-                  </div>
-                  <div class="stats-number"><p class="text">HOLDERS</p></div>
+              <div class="row mt-md-3">
+                <div class="col-md-5 text-center">
+                  <table class="table table-hover table-striped bg-blue">
+                    <tbody>
+                      <tr>
+                        <td>START</td>
+                        <td>NOW OPEN</td>
+                      </tr>
+                      <tr>
+                        <td>HARD CAP</td>
+                        <td>500 BNB</td>
+                      </tr>
+                      <tr>
+                        <td>SOFT CAP</td>
+                        <td>100 BNB</td>
+                      </tr>
+                      <tr>
+                        <td>TOKEN</td>
+                        <td>NOW OPEN</td>
+                      </tr>
+                      <tr>
+                        <td>START</td>
+                        <td>DUST</td>
+                      </tr>
+                      <tr>
+                        <td>RATE</td>
+                        <td>1 BNB = 14,000,000 DU$T</td>
+                      </tr>
+                      <tr>
+                        <td>PAYMENT</td>
+                        <td>BNB</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">100 Quadrillion</h5>
+                <div class="col-md-7 text-center">
+                  <div class="head-c">
+                    <h4 class="text-dark">HOW TO CLAIM YOUR TOKENS</h4>
                   </div>
-                  <div class="stats-number">
-                    <p class="text">Total Supply</p>
+                  <div class="text">
+                    <p class="mb-2">
+                      TO PURCHASE PRESALE: CLICK ON LINK BELOW AND ENTER AMOUNT OF BNB THAT YOU WANT TO PARTICIPATE WITH.
+                    </p>
+                    <p class="mb-2">
+                      Tokens have to be claim 48 hours after presale ends, on link below with the wallet you made the contribution with.
+                    </p>
+                    <p>
+                      ALL UNSOLD TOKENS IN STAGE 1 WILL BE BURN.
+                    </p>
+                    <button class="btn btn-danger btn-block mt-5">Buy Presale</button>
                   </div>
                 </div>
               </div>
-              <hr class="" />
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">$ 250,000+</h5>
-                  </div>
-                  <div class="stats-number"><p class="text">HOLDERS</p></div>
-                </div>
-                <div class="col-md-6">
-                  <div class="stats-head">
-                    <h5 class="text-danger">100 Macaw</h5>
-                  </div>
-                  <div class="stats-number">
-                    <p class="text">Total Supply</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -468,7 +585,7 @@
 
     <!-- section footer -->
     <footer
-      class="pt-5 mb-0"
+      class="pt-3 pt-md-5 mb-0"
       style="
         background: url(/images/abs.jpg) no-repeat center;
         background-size: cover;
@@ -476,7 +593,7 @@
     >
       <div class="container pt-5">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-6 mx-auto mb-5 mb-md-0 col-md-3">
             <img
               src="/images/footer-img.png"
               alt="image"
