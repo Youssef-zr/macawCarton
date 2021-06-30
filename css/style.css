@@ -273,6 +273,11 @@ nav {
   z-index: -1;
 }
 
+.bg-blue-table{
+  background:url('/images/bg-header.jpg') no-repeat center;
+  background-size: cover;
+}
+
 .img-responsive {
   max-width: 100%;
   height: auto;
