@@ -262,6 +262,7 @@ footer .social-media a {
 .navbar {
   position: relative;
 }
+
 .bg-blue {
   background: url("/images/bg-nav.jpg") no-repeat top right;
   background-size: cover;
@@ -342,6 +343,12 @@ p {
 }
 #section-header .header-content .header {
   font-size: 3em !important;
+}
+
+@media (max-width: 968px) {
+  .bg-blue {
+    background: url("/images/bg-nav.jpg") no-repeat top left;
+  }
 }
 
 @media (min-width: 1200px) {
