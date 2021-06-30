@@ -216,6 +216,7 @@ nav {
   border-radius: 50%;
   display: none;
   border: 2px solid #fff;
+  z-index: 99;
 }
 
 .slide-up i {
