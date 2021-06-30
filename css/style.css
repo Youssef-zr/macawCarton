@@ -301,7 +301,6 @@ footer .social-media a {
 }
 
 .btn:hover {
-  transform: translateY(-10px);
   background: #fff;
   color: #f53b57;
   border-color: #f53b57;
