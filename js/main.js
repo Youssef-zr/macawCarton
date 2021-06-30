@@ -72,7 +72,7 @@ $(() => {
         // add class active to nav items
         for (i = 0; i < nav_items.length; i++) {
             let $nav_item = $(nav_items[i]);
-            if ($('html,body').scrollTop() + 60 >= $('.' + $nav_item.data('scroll')).offset().top) {
+            if ($('html,body').scrollTop() + 80 >= $('.' + $nav_item.data('scroll')).offset().top) {
                 $nav_item.addClass('active').parent('li').siblings().find('a').removeClass('active')
             }
         }

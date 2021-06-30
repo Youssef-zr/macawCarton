@@ -12,10 +12,12 @@ nav {
 .navbar-dark .navbar-toggler {
   border-color: #fff !important;
 }
-.navbar-dark .navbar-nav .nav-link {
-  color: #ccc;
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-nav .nav-link:focus{
+  color:#ccc
 }
-
+.navbar-dark .navbar-nav .nav-link.active:focus{
+  color:#fff
+}
 @media (max-width: 968px) {
   .navbar-collapse li {
     background: rgba(0, 168, 255, 1);
