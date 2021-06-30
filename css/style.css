@@ -263,7 +263,7 @@ footer .social-media a {
   position: relative;
 }
 .bg-blue {
-  background: url("/images/bg-nav.jpg") no-repeat left;
+  background: url("/images/bg-nav.jpg") no-repeat top right;
   background-size: cover;
   border-bottom: 1px solid #eee;
   position: absolute;
