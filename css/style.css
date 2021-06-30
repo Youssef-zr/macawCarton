@@ -76,8 +76,11 @@ nav {
   color: #1b9cfc;
   transition: color 0.3s;
 }
-#section-header .header-content .social-media a:hover {
-  color: #f53b57;
+footer .social-media a {
+  color: #fff;
+}
+.social-media a:hover {
+  color: #f53b57 !important;
 }
 
 .section-how {
@@ -256,11 +259,11 @@ nav {
   text-transform: capitalize;
 }
 
-.navbar{
-  position:relative;
+.navbar {
+  position: relative;
 }
 .bg-blue {
-  background: url('/images/bg-nav.jpg') no-repeat left;
+  background: url("/images/bg-nav.jpg") no-repeat left;
   background-size: cover;
   border-bottom: 1px solid #eee;
   position: absolute;
@@ -273,8 +276,8 @@ nav {
   z-index: -1;
 }
 
-.bg-blue-table{
-  background:url('/images/bg-header.jpg') no-repeat center;
+.bg-blue-table {
+  background: url("/images/bg-header.jpg") no-repeat center;
   background-size: cover;
 }
 
