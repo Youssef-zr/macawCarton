@@ -36,7 +36,9 @@ $(() => {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
-        }, 700)
+        }, 700);
+        $(".navbar-collapse").slideUp(500)
+
     })
 
 
