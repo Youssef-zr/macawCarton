@@ -36,7 +36,7 @@ $(() => {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
-        },700)
+        }, 700)
     })
 
 
@@ -53,7 +53,9 @@ $(() => {
         $(this).addClass('active').parent('li').siblings('li').find('a').removeClass('active');
 
         // hide nav-collapse
-        $(".navbar-collapse").slideUp(500)
+        if ($(window).width() <= 968) {
+            $(".navbar-collapse").slideUp(500)
+        }
 
     });
 
