@@ -381,7 +381,7 @@ p {
   }
   .head::after {
     width: 40px !important;
-    top:17px
+    top:17px !important
   }
   .head h3 {
     font-size: 30px !important;
